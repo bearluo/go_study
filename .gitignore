@@ -1,0 +1,164 @@
+# Go语言编译后的二进制文件和插件
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go测试二进制文件，由 `go test -c` 生成
+*.test
+
+# Go覆盖率工具输出文件，特别是与LiteIDE一起使用时
+*.out
+
+# 依赖目录（取消下面的注释以包含它）
+# vendor/
+
+# Go工作空间文件
+go.work
+
+# IDE和编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统生成的文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 日志文件
+*.log
+logs/
+
+# 运行时数据
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# 代码覆盖率目录，由istanbul等工具使用
+coverage/
+*.lcov
+
+# nyc测试覆盖率
+.nyc_output
+
+# 依赖目录
+node_modules/
+jspm_packages/
+
+# npm缓存目录（可选）
+.npm
+
+# eslint缓存（可选）
+.eslintcache
+
+# Microbundle缓存
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# REPL历史记录（可选）
+.node_repl_history
+
+# npm pack输出
+*.tgz
+
+# Yarn完整性文件
+.yarn-integrity
+
+# parcel-bundler缓存 (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js构建输出
+.next
+
+# Nuxt.js构建/生成输出
+.nuxt
+dist
+
+# Gatsby文件
+.cache/
+public
+
+# Storybook构建输出
+.out
+.storybook-out
+
+# 临时文件夹
+tmp/
+temp/
+
+# Air热重载临时文件
+tmp/
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# 备份文件
+*.bak
+*.backup
+
+# 编译的目标文件、静态和动态库（共享对象）
+*.o
+*.a
+
+# 文件夹
+_obj
+_test
+
+# 特定架构的扩展/前缀
+*.[568vq]
+[568vq].out
+
+# cgo生成的文件
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+# 测试缓存
+testdata/
+
+# 构建输出
+build/
+bin/
+
+# Air配置文件（如果您想忽略它）
+.air.toml
+
+# Docker
+.dockerignore
+
+# Makefile备份
+Makefile.bak
+
+# 本地开发文件
+local/
+dev/
+
+# SSL证书
+*.pem
+*.key
+*.crt
+
+# 包含敏感数据的配置文件
+config/local.*
+config/production.* 

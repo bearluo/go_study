@@ -1,0 +1,8 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+代码生成规则
+
+    1.不要自动生成_test单例测试文件
