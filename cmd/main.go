@@ -9,7 +9,6 @@ import (
 	"github.com/labstack/echo/v4"
 
 	db "go-study/db"
-	"go-study/db/migrations"
 	"go-study/db/repositories"
 	"go-study/middleware"
 	routers "go-study/routers"
@@ -46,8 +45,6 @@ func initJWTConfig() {
 
 func initDataBases() {
 	db.InitDB()
-	manager := migrations.RegisterAllMigrations(db.DB)
-	manager.Migrate()
 }
 
 func startServer() {
